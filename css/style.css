@@ -206,9 +206,10 @@ body.lock {
   .menu_list {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .menu_list li {
-    padding: 0 0 45px 30px !important;
+    padding: 0 0 45px 0 !important;
   }
   .menu_list li:last-child {
     padding: 0;
