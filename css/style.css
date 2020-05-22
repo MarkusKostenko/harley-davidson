@@ -104,23 +104,7 @@ body.lock {
   height: 100%;
 }
 
-.overflow {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 2;
-  background-color: rgba(0, 0, 0, 0.492);
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease;
-}
 
-.overflow.lock {
-  opacity: 1;
-  visibility: visible;
-}
 
 .page {
   position: absolute;
@@ -210,14 +194,14 @@ body.lock {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #1F1C26;
+    background-color: #282F35;
     padding: 150px 0 0 0;
     overflow: auto;
     transform: translateX(100%);
     transition: all 0.3s ease 0s;
   }
   .menu_body.active {
-    transform: translateX(30%);
+    transform: translateX(0);
   }
   .menu_list {
     flex-direction: column;
